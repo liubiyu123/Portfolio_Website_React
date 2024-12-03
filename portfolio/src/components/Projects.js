@@ -2,9 +2,9 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div>
+    <div className="project">
       <h2>Projects</h2>
-      <div className="project">
+      <div>
         <h3>Project Name 1</h3>
         <p>
           <strong>Description:</strong> Briefly describe the project's purpose,
@@ -19,7 +19,7 @@ function Projects() {
           online demo if available.]
         </p>
       </div>
-      <div className="project">
+      <div>
         <h3>Project Name 2</h3>
         <p>
           <strong>Description:</strong> Briefly describe the project's purpose,

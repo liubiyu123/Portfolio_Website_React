@@ -1,7 +1,6 @@
 .app {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  padding: 20px;
 }
 
 section {
@@ -12,4 +11,36 @@ section {
   border: 1px solid #ccc;
   padding: 15px;
   margin-bottom: 15px;
+}
+
+/* 关于（About）部分的样式调整 */
+.about {
+  /* 将关于页面的背景色设置为淡米色（EFECCA） */
+  background-color: #EFECCA;
+  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
+  padding: 20px;
+}
+
+/* 教育背景（Education）部分的样式调整 */
+.education {
+  /* 将教育背景页面的背景色设置为淡米色（EFECCA） */
+  background-color: #EFECCA;
+  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
+  padding: 20px;
+}
+
+/* 项目经历（Projects）部分的样式调整 */
+.project {
+  /* 将项目经历页面的背景色设置为淡米色（EFECCA） */
+  background-color: #EFECCA;
+  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
+  padding: 20px;
+}
+
+/* 技能展示（Skills）部分的样式调整 */
+.skills {
+  /* 将技能展示页面的背景色设置为淡米色（EFECCA） */
+  background-color: #EFECCA;
+  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
+  padding: 20px;
 }

@@ -1,5 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  /* 将整体页面背景色设置为淡蓝色 - 绿色（A9CBB7） */
+  background-color: white;
 }

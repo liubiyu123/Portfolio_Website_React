@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
   return (
-    <div>
+    <div className='education'>
       <h2>Education</h2>
       <p>
         <strong>Degree:</strong> [Your Degree]

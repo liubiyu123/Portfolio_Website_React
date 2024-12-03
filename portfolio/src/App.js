@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'; // 引用App.css文件
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
