@@ -13,14 +13,6 @@ section {
   margin-bottom: 15px;
 }
 
-/* 关于（About）部分的样式调整 */
-.about {
-  /* 将关于页面的背景色设置为淡米色（EFECCA） */
-  background-color: #EFECCA;
-  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
-  padding: 20px;
-}
-
 /* 教育背景（Education）部分的样式调整 */
 .education {
   /* 将教育背景页面的背景色设置为淡米色（EFECCA） */
