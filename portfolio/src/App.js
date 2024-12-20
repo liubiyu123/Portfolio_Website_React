@@ -1,26 +1,38 @@
 import React from 'react';
 import './App.css'; // 引用App.css文件
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Passion from './components/Passion';
+import Experience from './components/Experience';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Header />
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="app">
+      <Header />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="passion">
+        <Passion />
+      </section>
+      <section id="Experience">
+        <Experience />
+      </section>
+      <section id="Work">
+        <Work />
+      </section>
+      <section id="Contact">
+        <Contact />
+      </section>
+    </div>
   );
 }
+
 
 export default App;

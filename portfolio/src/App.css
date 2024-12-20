@@ -1,38 +1,17 @@
-.app {
-  font-family: Arial, sans-serif;
+/* Global Font Settings */
+:root {
+  font-family: 'Lato', sans-serif; /* Use Lato as the global font */
+  font-weight: 300; /* Default to Light weight */
+  font-feature-settings: 'liga' 1, 'calt' 1; /* Optional: Ligatures for Chrome */
+}
+html {
+  scroll-behavior: smooth; /* Optional: Enable smooth scrolling */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0;
+  font-family: 'Inter', sans-serif; /* Apply Inter to the body */
   line-height: 1.6;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-.project {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-/* 教育背景（Education）部分的样式调整 */
-.education {
-  /* 将教育背景页面的背景色设置为淡米色（EFECCA） */
-  background-color: #EFECCA;
-  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
-  padding: 20px;
-}
-
-/* 项目经历（Projects）部分的样式调整 */
-.project {
-  /* 将项目经历页面的背景色设置为淡米色（EFECCA） */
-  background-color: #EFECCA;
-  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
-  padding: 20px;
-}
-
-/* 技能展示（Skills）部分的样式调整 */
-.skills {
-  /* 将技能展示页面的背景色设置为淡米色（EFECCA） */
-  background-color: #EFECCA;
-  color: #5E565A; /* 文字颜色设置为深灰色（5E565A） */
-  padding: 20px;
+  font-size: 16px; /* Set a base font size */
 }
