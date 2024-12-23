@@ -1,42 +1,42 @@
 /* Hero Section - Fullscreen Fixed Background */
 .hero-section {
-    position: relative; /* Allows positioning of the overlay */
-    background-image: url('../../img/background2.JPG'); /* Replace with your image path */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Parallax effect */
-    height: 100vh; /* Fullscreen height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff; /* White text color */
-    text-align: center;
-    padding: 0 20px;
-    z-index: 1; /* Ensure content appears above the overlay */
-  }
+  position: relative; /* Allows positioning of the overlay */
+  background-image: url('../../img/background2.JPG'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Parallax effect */
+  height: 100vh; /* Fullscreen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 0 20px;
+  z-index: 1; /* Ensure content appears above the overlay */
+}
   
-  /* Overlay to darken the background */
-  .hero-section::before {
-    content: ''; /* Necessary for pseudo-elements */
-    position: absolute; /* Cover the entire section */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent black overlay */
-    z-index: -1;
-  }
+/* Overlay to darken the background */
+.hero-section::before {
+  content: ''; /* Necessary for pseudo-elements */
+  position: absolute; /* Cover the entire section */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent black overlay */
+  z-index: -1;
+}
   
-  /* Hero Content Styling */
-  .hero-content h1 {
-    font-size: 70px;
-    margin: 0 0 10px;
-    font-weight: 300;
-  }
+/* Hero Content Styling */
+.hero-content h1 {
+  font-size: 70px;
+  margin: 0 0 10px;
+  font-weight: 300;
+}
   
-  .hero-content p {
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0;
-  }
+.hero-content p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
   

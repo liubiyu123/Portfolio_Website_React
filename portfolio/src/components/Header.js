@@ -30,7 +30,6 @@ function Header() {
       <nav>
         <ul>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#passion">PASSION</a></li>
           <li><a href="#experience">EXPERIENCE</a></li>
           <li><a href="#work">WORK</a></li>
           <li><a href="#contact">CONTACT</a></li>

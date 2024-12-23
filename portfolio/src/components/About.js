@@ -1,14 +1,14 @@
 import React from 'react';
-import './css/About.css'; // Make sure to include the CSS file
+import './css/About.css';
 
 function About() {
     return (
         <div className="about-container">
             <div className="about-text">
-                <h2>A LITTLE BIT ABOUT ME</h2>
+                <h2>ABOUT MYSELF</h2>
                 <p>
-                Hi! My name is Liu Biyu, and I'm a web developer with a passion for 
-                front-end development and design. I graduated from the
+                Hi! My name is Liu Biyu, and I'm a graduated student with a passion for 
+                front-end development, design, and data analysis. . I graduated from the
                 {' '}<a href="https://www.uow.edu.au" target="_blank" rel="noopener noreferrer">
                 University of Wollongong
                 </a>{' '}

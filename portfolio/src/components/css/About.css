@@ -1,37 +1,44 @@
-/* About Section */
 .about-container {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     padding: 20px;
+    padding-bottom: 40px;
     max-width: 650px;
     margin: 0 auto; 
 }
 
 .about-text {
     text-align: center; 
-    padding: 20px; 
+    padding: 20px;
+    color: #444;
 }
 
 .about-text h2 {
     margin-bottom: 5px; 
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .about-text p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .about-text a {
-    font-size: 18px;
+    position: relative;
+    font-size: 16px;
     font-weight: 300;
     color: #45a29e;
     text-decoration: none;
-    transition: color 0.3s ease;
+    background-image: linear-gradient(to right, #45a29e 0%, #45a29e 100%);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease, color 0.3s ease;
 }
 
 .about-text a:hover {
-    text-decoration: underline;
+    background-size: 100% 1px;
 }

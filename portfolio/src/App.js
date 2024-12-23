@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css'; // 引用App.css文件
 import Header from './components/Header';
 import About from './components/About';
-import Passion from './components/Passion';
 import Experience from './components/Experience';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Hero from './components/Hero';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -18,11 +18,11 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="passion">
-        <Passion />
-      </section>
       <section id="Experience">
         <Experience />
+      </section>
+      <section id="Resume">
+        <Resume />
       </section>
       <section id="Work">
         <Work />
