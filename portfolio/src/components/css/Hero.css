@@ -14,7 +14,7 @@
   padding: 0 20px;
   z-index: 1; /* Ensure content appears above the overlay */
 }
-  
+
 /* Overlay to darken the background */
 .hero-section::before {
   content: ''; /* Necessary for pseudo-elements */
@@ -26,17 +26,16 @@
   background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent black overlay */
   z-index: -1;
 }
-  
+
 /* Hero Content Styling */
 .hero-content h1 {
   font-size: 70px;
   margin: 0 0 10px;
   font-weight: 300;
 }
-  
+
 .hero-content p {
   font-size: 16px;
   font-weight: 300;
   margin: 0;
 }
-  

@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  padding-bottom: 40px;
+  background-color: #f0f0f0;
+  gap: 15px; /* Equal spacing between all children */
+}
+
+.email-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact h2 {
+  margin: 0; /* Remove extra margins */
+  font-size: 34px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact p {
+  margin: 0; /* Remove extra margins */
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.email-button {
+  margin-top: 20px; /* 15px from gap + additional 10px */
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #444;
+  background-color: transparent;
+  border: 1px solid #444;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.email-button:hover {
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.2);
+}

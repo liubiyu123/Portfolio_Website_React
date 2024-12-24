@@ -1,59 +1,59 @@
 .resume-container {
-    position: relative; /* Allows positioning of the overlay */
-    background-image: url('../../img/background1.JPG'); /* Replace with your image path */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Parallax effect */
-    height: 250px; /* Adjust height as needed */
-    width: 100vw; /* Full width */
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    color: #ffffff; /* White text color */
-    text-align: center;
-    margin: 0; /* Remove any default margin */
-    z-index: 1; /* Ensure content appears above the overlay */
+	position: relative; /* Allows positioning of the overlay */
+	background-image: url('../../img/background1.JPG'); /* Replace with your image path */
+	background-size: cover; /* Cover the entire viewport */
+	background-position: center; /* Center the image */
+	background-attachment: fixed; /* Parallax effect */
+	height: 250px; /* Adjust height as needed */
+	width: 100vw; /* Full width */
+	display: flex;
+	flex-direction: column; /* Stack content vertically */
+	justify-content: center; /* Center content vertically */
+	align-items: center; /* Center content horizontally */
+	color: #ffffff; /* White text color */
+	text-align: center;
+	margin: 0; /* Remove any default margin */
+	z-index: 1; /* Ensure content appears above the overlay */
 }
 
 .resume-container button:hover {
-    background-color: #66fcf1; /* Change color on hover */
+	background-color: #66fcf1; /* Change color on hover */
 }
 
 .resume-container::before {
-    content: ''; /* Necessary for pseudo-elements */
-    position: absolute; /* Cover the entire section */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent black overlay */
-    z-index: -1;
+	content: ''; /* Necessary for pseudo-elements */
+	position: absolute; /* Cover the entire section */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.65); /* Semi-transparent black overlay */
+	z-index: -1;
 }
 
 .resume-container h2 {
-    margin-bottom: 10px;
-    margin-top: -20px;
-    font-size: 36px;
-    font-weight: 200;
-    text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: -20px;
+	font-size: 36px;
+	font-weight: 200;
+	text-transform: uppercase;
 }
 
 .resume-container button {
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #A9A9A9;
-    background-color: transparent;
-    border: 1px solid #A9A9A9;
-    border-radius: 0;
-    cursor: pointer;
-    position: relative;
-    width: 150px;
-    text-align: center;
-    transition: all 0.3s ease;
+	padding: 10px 20px;
+	font-size: 18px;
+	color: #c2c2c2;
+	background-color: transparent;
+	border: 1px solid #c2c2c2;
+	border-radius: 0;
+	cursor: pointer;
+	position: relative;
+	width: 150px;
+	text-align: center;
+	transition: all 0.3s ease;
 }
 
 .resume-container button:hover {
-    width: 180px;
-    background-color: rgba(0, 0, 0, 0.4);
+	width: 180px;
+	background-color: rgba(0, 0, 0, 0.4);
 }
