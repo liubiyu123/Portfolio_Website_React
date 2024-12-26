@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/Header.css';
 import throttle from 'lodash/throttle';
+import logo from '../img/carrot.png';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="logo-container">
-        <img src="" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <span>LIU BIYU</span>
       </div>
       <nav>

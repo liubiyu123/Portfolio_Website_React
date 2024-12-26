@@ -25,13 +25,16 @@
 .work-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px;
+  max-width: 1300px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 .work-item {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  display: flex; /* Arrange components in a row */
+  flex-direction: column; /* Stack components vertically */
+  justify-content: space-between; /* Ensure spacing between top and bottom sections */
+  gap: 10px;
   padding: 20px;
   border-radius: 8px;
   background-color: #ffffff;
@@ -43,41 +46,67 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.work-image-details {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start; /* Align image and details to the top */
+}
+
 .work-image {
   width: 192px;
-  height: 108px;
+  height: auto;
   object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid #67bdb9;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .work-details {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .work-details h3 {
   margin: 0;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .work-details p {
+  margin: 0;
   text-align: left;
-  margin: 10px 0;
   font-size: 14px;
-  color: #a8b2d1;
+  color: #242424;
 }
 
-.work-tools {
+.work-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.work-tools, .work-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.work-tool {
-  background-color: #45a29e;
+.work-tool, .work-button {
+  display: inline-block; /* Ensure both elements behave similarly */
+  background-color: #45a29e; /* Ensure the background color is applied */
   color: #ffffff;
-  padding: 5px 10px;
+  padding: 5px 10px; /* Same padding for consistency */
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 12px; /* Same font size */
+  text-align: center;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Make spans appear clickable like buttons */
+  transition: background-color 0.3s ease;
+  appearance: none; /* Remove browser-specific styles for buttons */
+}
+
+.work-button:hover {
+  background-color: #3b8f85; /* Optional hover effect */
 }
