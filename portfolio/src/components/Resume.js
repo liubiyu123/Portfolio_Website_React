@@ -2,13 +2,19 @@ import React from 'react';
 import './css/Resume.css';
 
 function Resume() {
-return (
-  <div className="resume-container">
-      <h2>my resume!</h2>
-      <button className="resume-button">Grab a copy</button>
-  </div>
-
-);
+  return (
+    <div className="resume-container">
+      <h2>My Resume!</h2>
+      <a 
+        href="/resume.pdf" // Relative path to the PDF in the public folder
+        target="_blank"    // Open in a new tab
+        rel="noopener noreferrer" // Security improvement for external links
+        className="resume-button"
+      >
+        Grab a Copy
+      </a>
+    </div>
+  );
 }
 
 export default Resume;

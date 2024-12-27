@@ -69,3 +69,67 @@
 .header nav ul li a:hover {
   color: #45a29e;
 }
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
+}
+
+/* Navigation Links (Mobile) */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hidden by default */
+    flex-direction: column; /* Ensure vertical stacking */
+    justify-content: center; /* Center menu items vertically */
+    align-items: center; /* Center menu items horizontally */
+    position: fixed; /* Fix dropdown to cover the entire screen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height */
+    background: rgba(0, 0, 0, 0.95); /* Dark background */
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.open {
+    display: flex; /* Show menu */
+  }
+
+  .nav-links ul {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links ul li {
+    margin: 20px 0; /* Add spacing between items */
+    width: 100%; /* Ensure full width for alignment */
+    text-align: center;
+  }
+
+  .nav-links ul li a {
+    color: white; /* Text color */
+    font-size: 18px; /* Font size for better visibility */
+    text-decoration: none; /* No underline */
+  }
+
+  .nav-links ul li a:hover {
+    color: #45a29e; /* Highlight color on hover */
+  }
+
+  .menu-icon {
+    display: block; /* Show hamburger icon */
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    position: relative; /* Ensure icon is above menu */
+  }
+}

@@ -39,21 +39,22 @@
 	text-transform: uppercase;
 }
 
-.resume-container button {
-	padding: 10px 20px;
+.resume-container a {
+	padding: 5px 10px;
 	font-size: 18px;
-	color: #c2c2c2;
+	color: #c2c2c2; /* Text color */
 	background-color: transparent;
-	border: 1px solid #c2c2c2;
-	border-radius: 0;
+	border: 1px solid #c2c2c2; /* Border similar to the button */
+	border-radius: 0; /* No border radius */
 	cursor: pointer;
 	position: relative;
-	width: 150px;
+	width: 150px; /* Button-like width */
 	text-align: center;
+	text-decoration: none; /* Remove underline */
 	transition: all 0.3s ease;
 }
 
-.resume-container button:hover {
+.resume-container a:hover {
 	width: 180px;
 	background-color: rgba(0, 0, 0, 0.4);
 }

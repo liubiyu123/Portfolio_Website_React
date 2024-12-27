@@ -110,3 +110,43 @@
 .work-button:hover {
   background-color: #3b8f85; /* Optional hover effect */
 }
+
+@media (max-width: 820px) {
+  .work-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .work-item {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px;
+  }
+
+  .work-image-details {
+    flex-direction: column; /* Stack image and details */
+    align-items: center; /* Center-align content */
+  }
+
+  .work-image {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 300px; /* Limit the maximum width */
+  }
+
+  .work-details {
+    text-align: center; /* Center-align text */
+  }
+
+  .work-meta {
+    flex-direction: column; /* Stack tools and buttons */
+    align-items: center; /* Center-align items */
+    gap: 15px; /* Add spacing */
+  }
+
+  .work-tools, .work-buttons {
+    justify-content: center; /* Center-align items */
+  }
+
+  .work-details p {
+    text-align: center;
+  }
+}

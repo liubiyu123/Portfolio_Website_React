@@ -27,11 +27,11 @@ function Experience() {
         </div>
         <div className="education">
           <h3>Education:</h3>
-          <p>University of Wollongong (SIM Global Education)</p>
+          <p className='school'>University of Wollongong (SIM Global Education)</p>
           <p>Bachelor's in Computer Science (Big Data)</p>
           <p>Graduated: April 2024</p>
           <br/>
-          <p>Singapore Polytechnic</p>
+          <p className='school'>Singapore Polytechnic</p>
           <p>Diplomas in Interior Design</p>
           <p>Graduated: April 2019</p>
         </div>

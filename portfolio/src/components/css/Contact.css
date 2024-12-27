@@ -24,6 +24,7 @@
   margin: 0; /* Remove extra margins */
   font-size: 16px;
   font-weight: 300;
+  text-align: center;
 }
 
 .email-button {
