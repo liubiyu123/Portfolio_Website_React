@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/Header.css';
 import throttle from 'lodash/throttle';
-import logo from '../img/carrot.png';
+import logo from '../img/logo.png';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
