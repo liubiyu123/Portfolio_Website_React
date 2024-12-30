@@ -6,7 +6,7 @@ function Resume() {
     <div className="resume-container">
       <h2>My Resume!</h2>
       <a 
-        href="/resume.pdf" // Relative path to the PDF in the public folder
+        href="/Resume.pdf" // Relative path to the PDF in the public folder
         target="_blank"    // Open in a new tab
         rel="noopener noreferrer" // Security improvement for external links
         className="resume-button"
